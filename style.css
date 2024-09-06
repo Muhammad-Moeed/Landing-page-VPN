@@ -1,0 +1,268 @@
+.logo {
+    margin-left: 30px;
+}
+
+.navbar ul {
+    margin: auto;
+}
+
+.navbar ul li a {
+    margin-right: 20px;
+}
+
+.top-btn {
+    margin-left: 100px;
+    gap: 40px !important;
+}
+
+.sign-in {
+    color: black !important;
+    border: none !important;
+}
+
+.sign-in:hover {
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.sign-up {
+    border: 2px solid red !important;
+    border-radius: 20px !important;
+    color: red !important;
+    width: 101px;
+
+}
+
+.sign-up:hover {
+    background-color: transparent !important;
+    color: red !important;
+}
+
+/* Hero Section */
+
+.hero-section {
+    margin-top: 100px !important;
+    align-items: center;
+}
+
+.hero-text p {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.hero-text button {
+    background-color: rgb(244, 71, 71);
+    border-radius: 15px;
+    padding: 5px 25px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.hero-img img {
+    width: 450px;
+    height: 300px;
+}
+
+/* Users */
+.users-row {
+    justify-content: center !important;
+    margin-top: 60px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    padding: 17px 0px;
+    margin: auto !important;
+    width: 80%;
+
+}
+
+.users-row i {
+    font-size: 25px;
+    color: red;
+    background: rgba(245, 56, 56, 0.1);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.users-row span {
+    font-size: 25px;
+}
+
+.users-row p {
+    margin-left: 50px;
+    color: rgba(100, 100, 100, 1);
+    line-height: 1px;
+}
+
+.users-col {
+    margin-left: 60px;
+}
+
+
+/* We Provide Many Features */
+.feature2>p {
+    color: rgba(90, 90, 90, 1);
+
+}
+
+.feature2>ul {
+    list-style-image: url(assets/ul-img.png);
+}
+
+/* Choose Your Plan  */
+
+.plane {
+    margin: 10px !important;
+    border: 2px solid rgba(211, 211, 211, 1) !important;
+    border-radius: 15px !important;
+    padding: 20px 30px 0px 30px;
+    align-items: center;
+    height: 100% !important;
+}
+.item{
+    height: 60% !important;
+}
+@media only screen and (min-width: 760px) and (max-width: 990px) {
+    .item {
+        height: 70% !important;
+    
+        
+    }   
+}
+@media only screen and (max-width: 760px) {
+    .item {
+     
+        height: 60% !important;  
+    }   
+    .plane{
+        /* height: 120% !important; */
+        margin-bottom: 100px !important;
+    }
+}
+
+.plane img {
+    margin: auto;
+}
+
+.plane h5 {
+    text-align: center;
+}
+
+.plane ul {
+    list-style-image: url(assets/ul-img.png);
+    line-height: 50px;
+
+}
+
+.plane h1 {
+    /* margin-top: 20px; */
+    text-align: center;
+    font-size: 30px;
+}
+.price2 span,
+.price3 span {
+   color: rgb(113, 112, 112);
+
+}
+
+.plane button {
+    background: rgba(245, 56, 56, 1);
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 50px;
+    font-size: 20px;
+    border: none;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Network */
+
+.network P {
+    color: rgba(90, 90, 90, 1);
+    margin-top: 10px;
+
+}
+
+.network img {
+    cursor: pointer;
+    width: 90%;
+}
+
+/* Trusted Customer */
+.t-customer>h1 {
+    text-align: center;
+}
+
+.t-customer>p {
+    color: rgba(90, 90, 90, 1);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.title {
+    margin-left: 10px;
+    line-height: 10px;
+}
+
+.customer-card {
+    margin: 10px;
+    border-radius: 20px !important;
+    border-color: red !important;
+    cursor: pointer;
+    object-fit:fill;
+}
+
+.image img {
+    width: 100%;
+}
+
+.image {
+    width: 45px;
+}
+
+.card-text {
+    color: rgba(90, 90, 90, 1);
+    margin-top: 10px;
+
+}
+
+/* Subscribe */
+
+.subscribe {
+    width: 90%;
+    justify-content: center;
+    margin: auto !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+/* Footer */
+.footer {
+    background: rgba(244, 244, 244, 1);
+    margin-top: -20px !important;
+    z-index: -1;
+    position: absolute;
+    margin: auto !important;
+}
+
+.intro img,
+.intro p {
+    margin-left: 10%;
+    color: rgba(90, 90, 90, 1);
+
+
+}
+
+.link-pages ul li {
+    list-style: none;
+}
+
+.link-pages ul li a {
+    text-decoration: none;
+    color: rgba(100, 100, 100, 1);
+    line-height: 30px;
+}
